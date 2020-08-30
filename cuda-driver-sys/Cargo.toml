@@ -15,6 +15,9 @@ license       = "MIT/Apache-2.0"
 readme        = "../README.md"
 categories    = []
 
+[lib]
+crate-type = ["dylib"]
+
 [build-dependencies.cuda-config]
 path = "../cuda-config"
 version = "0.1.0"
